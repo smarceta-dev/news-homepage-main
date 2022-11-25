@@ -12,6 +12,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 navigation {
@@ -21,14 +22,15 @@ navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 75%;
+   
 }
 
 .nav-links{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex: 0 0 36%;
+    flex: 0 0 44%;
     
 }
 
@@ -44,7 +46,8 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 75%;
+    
 }
 
 
@@ -53,3 +56,28 @@ main {
     width: 40rem;
 }
 
+
+
+.articles-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+.article-item-container {
+    display: flex;
+}
+.article-item-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.article-image{
+    width: 6rem;
+    height: 8rem;
+}
+
+.article-text {
+    font-size: 1rem;
+}
